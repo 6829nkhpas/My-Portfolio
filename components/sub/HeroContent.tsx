@@ -40,7 +40,7 @@ const HeroContent = () => {
               Naman Kumar{" "}
 
             </span>
-            Cyber guy
+            Cyber Guy
           </span>
         </motion.div>
 
