@@ -63,7 +63,7 @@ const HeroContent = () => {
         <motion.a
           variants={slideInFromLeft(1)}
           className="py-2 px-4 flex gap-2 items-center button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]"
-          onClick={() => window.open("https://file.io/LjyNAw6A48yC")}
+          onClick={() => window.open("https://drive.google.com/file/d/16CxXfOjS5pFrAaZkTXIRwmjO4vWVoh48/view?usp=sharing")}
         >
           <span> Resume </span>
           <IoMdDownload />
