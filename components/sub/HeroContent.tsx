@@ -38,7 +38,6 @@ const HeroContent = () => {
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
               {" "}
               Naman Kumar{" "}
-
             </span>
             Cyber Guy
           </span>
@@ -48,26 +47,29 @@ const HeroContent = () => {
           variants={slideInFromLeft(0.8)}
           className="text-lg text-gray-400 my-5 max-w-[600px]"
         >
-          I&apos;m a Blockchain Developer with experience in Cyber Security 
-          and <i>Smart contract development</i>. Check out my projects and skills.
+          I&apos;m a Blockchain Developer with experience in Cyber Security and{" "}
+          <i>Smart contract development</i>. Check out my projects and skills.
         </motion.p>
         <div className="flex gap-6">
-
-        <motion.a
-          variants={slideInFromLeft(1)}
-          className="py-2 px-4 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]"
-          onClick={() => window.open("https://linktr.ee/namankh")}
-        >
-          Learn More!
-        </motion.a>
-        <motion.a
-          variants={slideInFromLeft(1)}
-          className="py-2 px-4 flex gap-2 items-center button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]"
-          onClick={() => window.open("https://drive.google.com/file/d/1xd4HhbPTGfYMqvOQ8wE5m2lbLGi3UO6-/view?usp=sharing")}
-        >
-          <span> Resume </span>
-          <IoMdDownload />
-        </motion.a>
+          <motion.a
+            variants={slideInFromLeft(1)}
+            className="py-2 px-4 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]"
+            onClick={() => window.open("https://linktr.ee/namankh")}
+          >
+            Learn More!
+          </motion.a>
+          <motion.a
+            variants={slideInFromLeft(1)}
+            className="py-2 px-4 flex gap-2 items-center button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]"
+            onClick={() =>
+              window.open(
+                "https://drive.google.com/file/d/1UvFgvE3MZzYAKasOgLHqtK0g-pxEBLWd/view?usp=sharing"
+              )
+            }
+          >
+            <span> Resume </span>
+            <IoMdDownload />
+          </motion.a>
         </div>
       </div>
 
