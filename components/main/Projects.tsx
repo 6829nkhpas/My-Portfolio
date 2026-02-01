@@ -22,8 +22,8 @@ const Projects = () => {
         />
         <ProjectCard
           src="/SpaceWebsite.png"
-          title="space theme portfolio"
-          description="personal portfolio made using html,css,js react next.js and three.js with flowermotion ."
+          title="Rust  performance trade"
+          description="rust base low latency high performance tradebook with postgresql  ."
         />
          <ProjectCard
           src="/auth.webp"
